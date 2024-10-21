@@ -4,59 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FEM 2024</title>
-    <!-- <link rel="icon" type="imagem/png" href="imgs/logo-header.png"/> -->
+    <link rel="icon" type="imagem/png" href="imgs/logo-header.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
-
-    <style>
-    /* body #header {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: #9E5F00;
-    margin-bottom: 10px;
-    transition:ease-out 0.2s;
-    } */
-    /* #header .navbar-collapse{
-    position: absolute;
-    right: 0;
-    }
-    #header .navbar-expand-lg {
-    display: flex;
-    justify-content: space-between !important;
-    align-items: center;
-    position: relative;
-    } */
-    #header{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        box-sizing: border-box;
-        box-shadow: 0em 0em 1em 0em /*inset*/ #DBDFE2;
-        position: fixed;
-        top: 0;
-        z-index: 100;
-        width: 100%;
-    }
-    #header .bg-body-tertiary{
-        background-color: white !important;
-    }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/global.js"></script>
 </head>
 <body>
     <header id="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="imgs/logo-header.png" alt="Logo" width="120">
+                    <img src="imgs/logo-header.png" alt="Logo" width="60">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#sobre">Sobre</a></li>
+                <div class="collapse navbar-collapse nav nav-underline" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#programacao">Programação</a></li>
                         <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
@@ -65,6 +31,142 @@
                 </div>
             </div>
         </nav>
-    </header>   
+    </header>
+    <main>
+        <section id="destaque">
+            <img src="imgs/logo.png" alt="Logo" width="500">
+            <div>
+                <p>A importância dos minerais críticos e estratégicos para o desenvolvimento do RN</p>
+                <a href="https://suap.ifrn.edu.br/eventos/inscricao/6378/" class="btn-inscricao">Inscreva-se!</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div>
+                <h2>Sobre</h2>
+                <p>Nos dias 28 e 29 de novembro de 2024, no auditório Geólogo José Gilson Vilaça, na sede do Instituto de Desenvolvimento Sustentável e Meio Ambiente (IDEMA), o V Fórum Estadual Mineral (FEM) irá reunir empresas, investidores, órgãos públicos e sociedade civil para agregar valores e impulsionar o desenvolvimento mineral do RN.<br>
+                   Com o tema “A importância dos minerais críticos e estratégicos para o desenvolvimento do RN”. Buscamos promover o debate construtivo entre os diversos setores da mineração a fim de trazer novas diretrizes e apontamentos de ações para fortalecimento da mineração no Rio Grande do Norte.<br>
+                   O FEM se consolidou como um grande evento do setor mineral no Brasil. Em sua quinta edição, trará empresas internacionais e grandes personalidades da mineração brasileira. Nossa missão é favorecer a geração de parcerias e viabilizar soluções que aqueçam a mineração potiguar.
+                </p>
+            </div>
+            <img src="imgs/img-sectionsobre.png" alt="Imagem de destaque para a section 'Sobre'" width="400">
+        </section>
+
+        <section id="programacao">
+            <div class="container">
+                <h2>Programação</h2>
+                <div class="programacao">
+                    <span>[Em breve!]</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container-pai">
+                <h2 style="color: white;">Galeria</h2>
+                <div class="container-filho">
+                    <img src="imgs/fundogaleria-top.png" alt="Imagem de fundo da galeria" class="img-topo">
+                    <div class="gallery-container">
+                        <div class="box"><img src="imgs/foto1.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto2.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto3.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto4.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto5.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto6.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto7.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto8.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto9.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto10.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto11.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto12.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto13.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto14.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto15.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto16.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto17.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto18.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto19.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto20.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto21.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto22.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto23.jpg" alt="Foto de edições anteriores"></div>
+                        <div class="box"><img src="imgs/foto24.jpg" alt="Foto de edições anteriores"></div>
+                        <!-- <div class="box"><img src="imgs/foto25.png" alt="Foto de edições anteriores"></div> -->
+                    </div>
+                    <img src="imgs/fundogaleria-end.png" alt="Imagem de fundo da galeria" class="img-fundo">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="mapa-container">
+                <img src="imgs/fundoiframe.png" alt="Imagem de fundo" class="imagem-fundo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.3295778328093!2d-35.19861407423996!3d-5.809045107296074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffededd36623%3A0xd5dfb257169a9b06!2sIdema!5e0!3m2!1spt-BR!2sbr!4v1727204023538!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa-iframe"></iframe>
+            </div>
+            <div>
+                <h2>Contato</h2>
+                <div>
+                    <h3>Endereço</h3>
+                    <p>IDEMA - Instituto de Desenvolvimento Sustentável e Meio Ambiente, Av. Alm. Alexandrino de Alencar, 1701 - Tirol, Natal - RN, 59015-350</p>
+                </div>
+                <div>
+                    <h3>Fale conosco</h3>
+                    <p>Para dúvidas, sugestões ou parcerias, entre em contato por E-mail: amanda@amandarochaeventos.com.br ou ligue para (84) 99689-1313 / (84) 99922-6746</p>
+                </div>
+                <div>
+                    <a href="#"><img src="imgs/logo-instagramcinza.png" alt="Logo do instagram" width="22"></a>
+                    <a href="#"><img src="imgs/logo-emailcinza.png" alt="Logo do e-mail" width="22"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="realizacao">
+            <div class="container">
+                <div>
+                    <h2>Realização</h2>
+                    <div class="container-logos">
+                        <a href="http://www.rn.gov.br/"><div class="cards-logos"><img src="imgs/logo-govrn.png" alt="Logo do Governo do RN"></div></a>
+                        <a href="http://www.sedec.rn.gov.br/"><div class="cards-logos"><img src="imgs/logo-sedec.png" alt="Logo do SEDEC"></div></a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Organização</h2>
+                    <div class="container-logos">
+                        <a href="#"><div class="cards-logos"><img src="imgs/logo-amandarocha.png" alt="Logo da Amanda Rocha, a organizadora do evento"></div></a>
+                   </div>
+                </div>
+                <div>
+                    <h2>Apoio</h2>
+                    <div class="container-logos">
+                        <a href="https://portal.ifrn.edu.br/"><div class="cards-logos"><img src="imgs/logo-ifrn.png" alt="Logo do IFRN"></div></a>
+                        <a href="https://funcern.br/"><div class="cards-logos"><img src="imgs/logo-funcern.png" alt="Logo da FUNCERN"></div></a>
+                        <a href="https://www.fiern.org.br"><div class="cards-logos"><img src="imgs/logo-fiern.png" alt="Logo da FIERN"></div></a>
+                        <a href="https://crea-rn.org.br"><div class="cards-logos"><img src="imgs/logo-crea.png" alt="Logo do CREA"></div></a>
+                        <a href="https://sebrae.com.br/sites/PortalSebrae/ufs/rn"><div class="cards-logos"><img src="imgs/logo-sebrae.png" alt="Logo do SEBRAE"></div></a>
+                        <a href="https://asbm.com.br"><div class="cards-logos"><img src="imgs/logo-asbm.png" alt="Logo da ASBM"></div></a>
+                        <a href="https://www.gov.br/anm/pt-br"><div class="cards-logos"><img src="imgs/logo-anm.png" alt="Logo da ANM"></div></a>
+                        <a href="https://www.sgb.gov.br/"><div class="cards-logos"><img src="imgs/logo-sgb.png" alt="Logo do SGB"></div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo do evento" width="250"></a>
+            <div>
+                <ul>
+                    <li><img src="imgs/icon-localizacao.png" alt="Ícone de localização" width="24">IDEMA - Av. Alm. Alexandrino de Alencar, <br> 1701 - Tirol, Natal - RN, 59015-350</li>
+                    <li><img src="imgs/icon-instagram.png" alt="Ícone do instagram" width="21">@ifrnoficial</li>
+                </ul>
+                <ul>
+                    <li><img src="imgs/icon-telefone.png" alt="Ícone de telefone" width="22">(84) 99689-1313</li>
+                    <li><img src="imgs/icon-telefone.png" alt="Ícone de telefone" width="22">(84) 99922-6746</li>
+                    <li><img src="imgs/icon-email.png" alt="Ícone de email" width="21">amanda@amandarochaeventos.com.br</li>
+                </ul>
+            </div>
+        </div>
+        <p class="direitos">FEM-RN © 2024 Todos os Direitos Reservados</p>
+    </footer>
 </body>
 </html>

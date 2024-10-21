@@ -1,0 +1,356 @@
+@media (max-width: 1200px) {
+    #destaque {
+        padding: 5em 0;
+        gap: 2.5em;
+        background-size: cover;
+        background-position: top;
+    }
+    #destaque img {
+        width: 100%;
+        max-width: 350px;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    #destaque div p {
+        font-size: 1.1em;
+        padding: 0 1.5em;
+    }
+    .btn-inscricao {
+        padding: 0.2em 0.7em;
+        font-size: 1.1em;
+    }
+
+    #sobre {
+        flex-direction: column;
+        padding: 4.5em 3em;
+        gap: 1.2em;
+        width: auto;
+    }
+    #sobre img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+    #sobre p {
+        font-size: 1.1em;
+    }
+
+    #programacao .container {
+        padding: 4.5em 3em;
+        width: auto;
+    }
+    .programacao span {
+        font-size: 1.1em;
+    }
+
+    #galeria {
+        padding: 4.5em 3em;
+    }
+    #galeria .container-pai {
+        width: auto;
+    }
+    #galeria .img-topo, #galeria .img-fundo {
+        width: 130px;
+    }
+    .gallery-container {
+        gap: 1.2em;
+        padding: 2em 1.5em;
+    }
+    .gallery-container .box {
+        flex-basis: calc(33.33% - 1em);
+    }
+
+
+    #contato {
+        padding: 4.5em 3em;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mapa-container {
+        height: 300px;
+    }
+    .imagem-fundo{
+        width: auto;
+    }
+    .mapa-iframe {
+        width: 430px;
+        padding: 1.8em;
+    }
+    #contato p {
+        font-size: 1.1em;
+    }
+    #contato > a img {
+        width: 20px;
+    }
+
+
+    #realizacao {
+        padding: 4.5em 3em;
+    }
+    #realizacao .container {
+        width: auto;
+    }
+    #realizacao .container-logos {
+        gap: 1.2em;
+    }
+
+    #footer .container {
+        padding: 4.5em 3em;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+    #footer .container div{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0;
+
+    }
+    #footer div {
+        margin-top: 2.5em;
+    }
+    #footer ul {
+        padding: 0;
+    }
+    #footer ul:nth-child(1) li, #footer ul:nth-child(2) li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    #footer ul li {
+        font-size: 1.1em;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    #destaque {
+        background-size: 165%;
+        background-position: top;
+        padding: 4em 0;
+        gap: 2em;
+    }
+    #destaque img {
+        width: 100%;
+        max-width: 300px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    #destaque div p {
+        font-size: 1em;
+        padding: 0 1em;
+    }
+    .btn-inscricao {
+        padding: 0.1em 0.5em;
+        font-size: 1em;
+    }
+
+    
+    #sobre {
+        flex-direction: column;
+        padding: 4em 2.5em;
+        gap: 1em;
+        width: auto;
+    }
+    #sobre img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    #sobre p {
+        font-size: 1em;
+    }
+
+
+    #programacao .container {
+        padding: 4em 2.5em;
+        width: auto;
+    }
+    .programacao span {
+        font-size: 1em;
+    }
+
+
+    #galeria {
+        padding: 4em 2.5em;
+    }
+    #galeria .container-pai {
+        width: auto;
+    }
+    #galeria .img-topo, #galeria .img-fundo {
+        width: 120px;
+    }
+    .gallery-container {
+        gap: 1em;
+        padding: 1.6em 1.3em;
+    }
+    .gallery-container .box {
+        flex-basis: calc(50% - 0.8em);
+    }
+
+
+    #contato {
+        padding: 4em 2.5em;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mapa-container {
+        height: 280px;
+    }
+    .mapa-iframe{
+        padding: 1.5em;
+        width: 400px;
+    }
+    #contato p {
+        font-size: 1em;
+    }
+    #contato > a img {
+        width: 18px;
+    }
+
+
+    #realizacao {
+        padding: 4em 2.5em;
+    }
+    #realizacao .container {
+        width: auto;
+    }
+    #realizacao .container-logos {
+        gap: 1em;
+    }
+
+
+    #footer .container {
+        padding: 4em 2.5em;
+        width: auto;
+        align-items: center;
+    }
+    #footer div {
+        margin-top: 2em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #footer ul {
+        padding: 0;
+    }
+    #footer ul:nth-child(1) li, #footer ul:nth-child(2) li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    #footer ul li {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    #destaque {
+        padding: 3em 0;
+        gap: 2em;
+        background-size: 185%;
+        background-position: top;
+    }
+    #destaque img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    #destaque div p {
+        font-size: 0.9em;
+        padding: 0 2.5em;
+    }
+    .btn-inscricao {
+        padding: 0.1em 0.5em;
+        font-size: 0.9em;
+    }
+
+
+    #sobre {
+        gap: 0.7em;
+        padding: 3em 2em;
+    }
+    #sobre p {
+        font-size: 0.9em;
+    }
+    #sobre img {
+        max-width: 400px;
+    }
+
+
+    #programacao .container {
+        padding: 3em 2em;
+    }
+    .programacao span {
+        font-size: 0.9em;
+    }
+
+
+    #galeria {
+        padding: 3em 2em;
+    }
+    #galeria .img-topo, #galeria .img-fundo {
+        width: 100px;
+    }
+    .gallery-container {
+        gap: 1em;
+        padding: 1.3em;
+    }
+    .gallery-container .box {
+        flex-basis: 100%;
+    }
+
+
+    #contato {
+        padding: 3em 2em;
+    }
+    .mapa-container {
+        height: 225px;
+    }
+    .imagem-fundo{
+        width: auto;
+    }
+    .mapa-iframe {
+        width: 320px;
+        padding: 1.4em;
+    }
+    #contato > a img {
+        width: 16px;
+    }
+    #contato p {
+        font-size: 0.9em;
+    }
+
+
+    #realizacao {
+        padding: 3em 2em;
+    }
+    #realizacao .container {
+        width: auto;
+    }
+    #realizacao .container-logos {
+        gap: 1em;
+    }
+
+
+    #footer .container {
+        padding: 3em 2em;
+        width: auto;
+        align-items: center;
+    }
+    #footer div {
+        margin-top: 1.5em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #footer ul {
+        padding: 0;
+    }
+    #footer ul:nth-child(1) li, #footer ul:nth-child(2) li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
