@@ -26,7 +26,7 @@
 }
 .navbar-toggler.collapsed .navbar-toggler-icon {
     transform: rotate(0deg);
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
     transform: rotate(90deg);
@@ -40,7 +40,11 @@
     box-shadow: none;
 }
 body.nav-open main {
-    transform: translateY(250px);
+    transform: translateY(215px);
+    transition: transform 0.3s ease;
+}
+body.nav-open footer {
+    transform: translateY(215px);
     transition: transform 0.3s ease;
 }
 .navbar-brand img {
@@ -314,7 +318,9 @@ p, span{
 
 /* ########################################## */
 
-
+#footer{
+    transition: transform 0.3s ease;
+}
 #footer .container{
     padding: 2em 0;
     width: 73em;

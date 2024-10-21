@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     #destaque {
-        padding: 5em 0;
+        padding: 4.5em 0 3.5em 0;
         gap: 2.5em;
         background-size: cover;
         background-position: top;
@@ -129,7 +129,7 @@
     #destaque {
         background-size: 165%;
         background-position: top;
-        padding: 4em 0;
+        padding: 4.5em 0 3.5em 0;
         gap: 2em;
     }
     #destaque img {
@@ -247,7 +247,7 @@
 
 @media (max-width: 480px) {
     #destaque {
-        padding: 3em 0;
+        padding: 4.5em 0 3.5em 0;
         gap: 2em;
         background-size: 185%;
         background-position: top;
