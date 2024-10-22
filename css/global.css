@@ -275,14 +275,30 @@ p, span{
     gap: 1em;
     justify-content: center;
 }
+#realizacao .container-logos:nth-child(2) a .cards-logos{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+#realizacao .container-logos:nth-child(2) a .cards-logos div{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#realizacao .container-logos:nth-child(2) a .cards-logos div p{
+    margin: 0;
+}
+#realizacao .container-logos:nth-child(2) a{
+    text-decoration: none;
+}
 #realizacao .cards-logos {
     position: relative;
     flex-basis: calc(25% - 1em);
-    height: 110px;
+    height: 130px;
     width: 255px;
     background-color: #FFFFFF;
     border-radius: 0.5em;
-    padding: 1em;
+    padding: 1.6em;
     box-shadow: 0 0 1em 0 #eaebec;
     display: flex;
     align-items: center;
