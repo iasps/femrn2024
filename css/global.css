@@ -313,7 +313,7 @@ p, span{
 #realizacao .container-logos:nth-child(2) a .cards-logos{
     display: flex;
     flex-direction: column;
-    gap: 0;
+    /* gap: 0.5em; */
 }
 #realizacao .container-logos:nth-child(2) a .cards-logos div{
     display: flex;
@@ -331,8 +331,8 @@ p, span{
 #realizacao .cards-logos {
     position: relative;
     flex-basis: calc(25% - 1em);
-    height: 170px;
-    width: 255px;
+    height: 130px;
+    width: 211px;
     background-color: #FFFFFF;
     border-radius: 0.5em;
     padding: 1.6em;
