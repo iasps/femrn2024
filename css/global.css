@@ -157,7 +157,7 @@ main{
 h2{
     font-family: "Viga", sans-serif;
     color: #6F4518;
-    font-size: 1.9em;
+    font-size: 1.8em;
 }
 p, span{
     font-family: "Lato", sans-serif;
@@ -191,11 +191,11 @@ p, span{
 #programacao h3{
     font-family: "Viga", sans-serif;
     color: #6F4518;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 0;
 }
 .container-dia:nth-child(3){
-    margin-top: 3em;
+    margin-top: 2em;
 }
 .programacao {
     background-color: #fff;

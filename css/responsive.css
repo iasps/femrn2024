@@ -10,7 +10,7 @@
         max-width: 350px;
     }
     h2 {
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
     #destaque div p {
         font-size: 1.1em;
@@ -43,6 +43,12 @@
     }
     .programacao{
         height: 100%;
+    }
+    .programacao p{
+        font-size: 1.1em;
+    }
+    .programacao li::before {
+        top: 3.5px;
     }
 
     #galeria {
@@ -138,7 +144,7 @@
         max-width: 300px;
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     #destaque div p {
         font-size: 1em;
@@ -173,6 +179,15 @@
     }
     .programacao{
         height: 100%;
+    }
+    .programacao p{
+        font-size: 1em;
+    }
+    .programacao h3{
+        font-size: 1.1em;
+    }
+    .programacao li::before {
+        top: 2.5px;
     }
 
 
@@ -260,7 +275,7 @@
         height: auto;
     }
     h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     #destaque div p {
         font-size: 0.9em;
@@ -289,6 +304,15 @@
     }
     .programacao{
         height: 100%;
+    }
+    .programacao p{
+        font-size: 0.9em;
+    }
+    .programacao h3{
+        font-size: 1em;
+    }
+    .programacao li::before {
+        top: 1.5px;
     }
 
 
