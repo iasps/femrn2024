@@ -36,12 +36,13 @@
         font-size: 1.1em;
     }
 
-    #programacao .container {
+    #programacao .container-pai {
         padding: 4.5em 3em;
         width: auto;
+        height: auto;
     }
-    .programacao span {
-        font-size: 1.1em;
+    .programacao{
+        height: 100%;
     }
 
     #galeria {
@@ -165,12 +166,13 @@
     }
 
 
-    #programacao .container {
+    #programacao .container-pai {
         padding: 4em 2.5em;
         width: auto;
+        height: auto;
     }
-    .programacao span {
-        font-size: 1em;
+    .programacao{
+        height: 100%;
     }
 
 
@@ -282,11 +284,11 @@
     }
 
 
-    #programacao .container {
+    #programacao .container-pai {
         padding: 3em 2em;
     }
-    .programacao span {
-        font-size: 0.9em;
+    .programacao{
+        height: 100%;
     }
 
 

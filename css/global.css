@@ -149,6 +149,7 @@ main{
 }
 #destaque div p{
     margin-bottom: 0;
+    font-size: 1.2em;
     font-family: "Viga", sans-serif;
     color: #6F4518 !important;
     text-align: center;
@@ -156,7 +157,7 @@ main{
 h2{
     font-family: "Viga", sans-serif;
     color: #6F4518;
-    font-size: 1.5em;
+    font-size: 1.9em;
 }
 p, span{
     font-family: "Lato", sans-serif;
@@ -178,11 +179,85 @@ p, span{
 #programacao{
     background-color: #F5F5F5;
 }
-#programacao .container{
+#programacao .container-pai{
     padding: 6em 0;
     margin: 0 auto;
     width: 73em;
+}
+#programacao .container-pai h2{
     text-align: center;
+    margin-bottom: 1.2em;
+}
+#programacao h3{
+    font-family: "Viga", sans-serif;
+    color: #6F4518;
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+.container-dia:nth-child(3){
+    margin-top: 3em;
+}
+.programacao {
+    background-color: #fff;
+    padding: 20px 40px 25px 45px;
+    border-radius: 0.5em;
+    list-style: none;
+    position: relative;
+}
+.programacao::before {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    bottom: 40px;
+    width: 2px;
+    background-color: #C67802; /* Linha vertical da timeline */
+}
+.programacao li{
+    position: relative;
+}
+.programacao li:not(:last-child){
+    margin-bottom: 30px;
+}
+.programacao li::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 5px;
+    width: 17px;
+    height: 17px;
+    background-color: #C67802;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.hora-titulo {
+    font-family: "Viga", sans-serif;
+    font-size: 1.1em;
+    color: #6F4518 !important;
+    margin-bottom: 0;
+}
+.expansao-programacao{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #C67802;
+    margin-bottom: 13px;
+    padding-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+.seta {
+    transition: transform 0.3s ease;
+}
+.seta.expandido {
+    transform: rotate(180deg);
+}
+.container-programacao{
+    transition: max-height 0.4s ease-out;
+    overflow: hidden;
+}
+.container-dia:not(:first-child) .container-programacao {
+    max-height: 0;
 }
 
 /* ########################################## */

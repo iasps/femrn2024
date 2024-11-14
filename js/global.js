@@ -45,3 +45,31 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// ##########################################
+
+function toggleProgramacao(element) {
+    const containerProgramacao = element.nextElementSibling;
+    const seta = element.querySelector('.seta');
+
+    // Alterna a exibição da programação com uma animação suave
+    if (containerProgramacao.style.maxHeight === '0px' || !containerProgramacao.style.maxHeight) {
+        containerProgramacao.style.maxHeight = containerProgramacao.scrollHeight + 'px';
+        seta.classList.add('expandido');
+    } else {
+        containerProgramacao.style.maxHeight = '0px';
+        seta.classList.remove('expandido');
+    }
+}
+
+// Ao carregar a página, defina o primeiro dia como expandido
+window.addEventListener('DOMContentLoaded', () => {
+    const primeiroDia = document.querySelector('.container-dia .container-programacao');
+    const primeiraSeta = document.querySelector('.container-dia .seta');
+    if (primeiroDia) {
+        primeiroDia.style.maxHeight = primeiroDia.scrollHeight + 'px';
+        primeiraSeta.classList.add('expandido');
+    }
+});
+
+

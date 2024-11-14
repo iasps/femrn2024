@@ -37,7 +37,8 @@
             <img src="imgs/logo.png" alt="Logo" width="500">
             <div>
                 <p>A importância dos minerais críticos e estratégicos para o desenvolvimento do RN</p>
-                <a href="https://suap.ifrn.edu.br/eventos/inscricao/6378/" class="btn-inscricao">Inscreva-se!</a>
+                <a href="https://www.sympla.com.br/evento/v-forum-estadual-mineral-do-rio-grande-do-norte/2702558" class="btn-inscricao">Inscreva-se!</a>
+                <!-- <a href="https://suap.ifrn.edu.br/eventos/inscricao/6378/" class="btn-inscricao">Inscreva-se!</a> -->
             </div>
         </section>
 
@@ -53,11 +54,152 @@
         </section>
 
         <section id="programacao">
-            <div class="container">
+            <div class="container-pai">
                 <h2>Programação</h2>
-                <div class="programacao">
-                    <span>[Em breve!]</span>
+                <div class="container-dia">
+                    <div class="expansao-programacao" onclick="toggleProgramacao(this)">
+                        <img src="imgs/angulo-circulo-para-baixo.png" class="seta" width="23" alt="seta de expansão da programação">
+                        <h3>1º Dia - 28/11/2024</h3>
+                    </div>
+                    <div class="container-programacao" style="max-height: 1000px; overflow: hidden;">
+                        <ul class="programacao">
+                            <li>
+                                <p class="hora-titulo">14:00h - Credenciamento</p>
+                                <p class="descricao">Início do credenciamento para os participantes do evento. Esse é o momento para garantir seu acesso à programação completa, retirar seu crachá e materiais informativos.</p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">15:00h - Cerimônia de abertura</p>
+                                <p class="descricao">Uma cerimônia especial para marcar o início oficial do evento. Serão apresentadas as boas-vindas por parte dos organizadores, parceiros e autoridades presentes, destacando a importância do encontro e os objetivos a serem alcançados ao longo dos dias.</p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">16:00h - Palestra de abertura</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> A pesquisa em minerais estratégicos/críticos no Brasil para alavancar a descarbonização e o bem-estar social <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Roberto Perez Xavier - Diretor Executivo na Agência para o Desenvolvimento e Inovação do Setor Mineral Brasileiro (ADIMB)
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">17:00h - Abertura oficial da feira</p>
+                                <p class="descricao">Venha prestigiar a abertura oficial da feira, onde empresas, pesquisadores e inovadores do setor mineral estarão reunidos para expor suas soluções, tecnologias e projetos. Uma excelente oportunidade para networking, conhecer novas tendências e fechar parcerias estratégicas.</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="container-dia">
+                    <div class="expansao-programacao" onclick="toggleProgramacao(this)">
+                        <img src="imgs/angulo-circulo-para-baixo.png" class="seta" width="23" alt="seta de expansão da programação">
+                        <h3>2º Dia - 29/11/2024</h3>
+                    </div>
+                    <div class="container-programacao" style="max-height: 0; overflow: hidden;">
+                        <ul class="programacao">
+                            <li>
+                                <p class="hora-titulo">08:00h - Palestra: Mapa de perspectividade</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Mapa de perspectividade para cobre-ouro em skarns – área Serra da Umburana, Escala 1:100.000 <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Alan Pereira da Costa - Pesquisador em Geociências no Serviço Geológico do Brasil (SGB)
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">08:25h - Palestra: Sustentabilidade ambiental</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Os desafios para a sustentabilidade ambiental da mineração no RN sob a ótica do licenciamento ambiental <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Ana Valéria - Supervisora do NAEM/Idema
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">08:50h - Palestra: Mineração Inteligente</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Mineração Inteligente: Topografia e Geotecnologias como ferramentas estratégicas <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Marcelo Freire – Especialista em Geotecnologias da Cabugi Serviços
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">09:15h - Palestra: Caracterização do minério por Difração de Raios</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Desafios para a indústria mineira na caracterização do minério por Difração de Raios <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Eugênio Carvalho – Diretor na Química Brasileira
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">09:40h - Palestra: Porto Indústria Verde do RN</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Porto Indústria Verde do RN <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Hugo Fonseca – Secretário Adjunto da SEDEC/RN
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">10:05h - Intervalo / Coffe Break</p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">10:35h - Palestra: Sustentabilidade em desmonte de rochas</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Sustentabilidade em desmonte de rochas <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Diego Ribas Ferreira – Diretor da Explog
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">11:10h - Talk show</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Impactos das parcerias científicas e tecnológicas na Margem Equatorial Brasileira <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrantes:</strong> Victor Hugo Rocha Lopes – Dr. Pesquisador em Geociências no Serviço Geológico do Brasil (SGB) / Helenice Vital - Professora Titular Livre em Geologia Marinha da Universidade Federal do Rio Grande do Norte (UFRN)
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">12:00h às 14:00h - Palestra: Intervalo para almoço</p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">14:00h - Palestra: Tecnologias e a extração de rocha ornamental</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Evolução das tecnologias para extração de rocha ornamental <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Flávio Pontes – Engenheiro de Minas na Casa Grande Mineração
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">14:20h - Palestra: Geofísica e minerais estratégicos</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Geofísica e minerais estratégicos: Inovações para um futuro sustentável <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Maria Cristina Souza Alagia – Diretora de Negócios e Comercial na Neogeo Geotecnologia
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">14:40h - Palestra: CT Mineral</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> CT Mineral: Impulsionando o desenvolvimento de minerais críticos e estratégicos para a mineração brasileira <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Elias Nunes – Diretor de Planejamento e Negócios do Centro de Tecnologia Mineral do IFRN
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">15:00h - Palestra: Empresa Aura Boreana</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Empresa Aura Borborema <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Iuri dos Santos Cordeiro - Engenheiro de Minas na Aura Borborema
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">15:20h - Palestra: Mina 4G</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Mina 4G <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrante:</strong> Victória Henriques – Engenheira de Minas na Aura Borborema
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">15:40h - Intervalo / Coffe Break</p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">16:10h - Talk show</p>
+                                <p class="descricao">
+                                    <strong style="color: #6F4518; font-weight: 700;">Tema:</strong> Importância dos minerais críticos e estratégicos para o desenvolvimento do Rio Grande do Norte <br>
+                                    <strong style="color: #6F4518; font-weight: 700;">Palestrantes:</strong> Francisco Valdir da Silveira – Diretor de Geologia e Recursos Minerais no Serviço Geológico do Brasil (SGB) / Alexandre Magno Rocha da Rocha – Professor do Instituto Federal de Educação, Ciência e Tecnologia do Rio do Norte (IFRN) / Carlos Nogueira da Costa Junior - Diretor de Relações Governamentais na 4Bmining Corp
+                                </p>
+                            </li>
+                            <li>
+                                <p class="hora-titulo">17:00h - Encerramento</p>
+                                <p class="descricao">Cerimônia de encerramento oficial, marcando o fim das atividades do evento. Momento para agradecimentos, balanço dos resultados e despedida dos participantes.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <span>[Em breve!]</span> -->
             </div>
         </section>
 
@@ -114,7 +256,7 @@
                     <p>Para dúvidas, sugestões ou parcerias, entre em contato por E-mail: amanda@amandarochaeventos.com.br ou ligue para (84) 99689-1313 / (84) 99922-6746</p>
                 </div>
                 <div>
-                    <a href="#"><img src="imgs/logo-instagramcinza.png" alt="Logo do instagram" width="22"></a>
+                    <a href="https://www.instagram.com/femrn24?igsh=dnVpdmc3ajhvb2kw"><img src="imgs/logo-instagramcinza.png" alt="Logo do instagram" width="22"></a>
                     <a href="#"><img src="imgs/logo-emailcinza.png" alt="Logo do e-mail" width="22"></a>
                 </div>
             </div>
@@ -225,9 +367,11 @@
                         <a href="https://www.fiern.org.br"><div class="cards-logos"><img src="imgs/logo-fiern.jpg" alt="Logo da FIERN"></div></a>
                         <a href="https://sebrae.com.br/sites/PortalSebrae/ufs/rn"><div class="cards-logos"><img src="imgs/logo-sebrae.png" alt="Logo do SEBRAE"></div></a>
                         <a href="https://www.sgb.gov.br/"><div class="cards-logos"><img src="imgs/logo-sgb.jpg" alt="Logo do SGB"></div></a>
-                        <!-- <a href="https://crea-rn.org.br"><div class="cards-logos"><img src="imgs/logo-crea.png" alt="Logo do CREA"></div></a> -->
+                        <a href="https://crea-rn.org.br"><div class="cards-logos"><img src="imgs/logo-crea.png" alt="Logo do CREA"></div></a>
+                        <a href="https://www.gov.br/anm/pt-br"><div class="cards-logos"><img src="imgs/logo-anm.png" alt="Logo da ANM"></div></a>
+                        <a href="https://www.ufrn.br/"><div class="cards-logos"><img src="imgs/logo-ufrn.jpg" alt="Logo da UFRN"></div></a>
+                        <a href="http://www.idema.rn.gov.br/"><div class="cards-logos"><img src="imgs/logo-idema.jpg" alt="Logo do IDEMA"></div></a>
                         <!-- <a href="https://asbm.com.br"><div class="cards-logos"><img src="imgs/logo-asbm.png" alt="Logo da ASBM"></div></a> -->
-                        <!-- <a href="https://www.gov.br/anm/pt-br"><div class="cards-logos"><img src="imgs/logo-anm.png" alt="Logo da ANM"></div></a> -->
                     </div>
                 </div>
                 <div class="container-realizacao">
@@ -252,7 +396,7 @@
             <div>
                 <ul>
                     <li><img src="imgs/icon-localizacao.png" alt="Ícone de localização" width="24">IDEMA - Av. Alm. Alexandrino de Alencar, <br> 1701 - Tirol, Natal - RN, 59015-350</li>
-                    <li><img src="imgs/icon-instagram.png" alt="Ícone do instagram" width="21">@ifrnoficial</li>
+                    <li><img src="imgs/icon-instagram.png" alt="Ícone do instagram" width="21">@femrn24</li>
                 </ul>
                 <ul>
                     <li><img src="imgs/icon-telefone.png" alt="Ícone de telefone" width="22">(84) 99689-1313</li>
